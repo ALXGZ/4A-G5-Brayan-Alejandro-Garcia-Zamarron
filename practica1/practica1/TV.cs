@@ -11,27 +11,27 @@ namespace practica1
         public string forma = "", color = "", tamaño = "", modelo = "";
         public double costo = 0.0;
 
-        public void ver_vi()
+        public void VerVideos()
         {
             Console.WriteLine("Estoy viendo videos");
         } 
         
-        public void ver_inf()
+        public void VerInformacion()
         {
             Console.WriteLine("Estoy viendo informacion");
         }
 
-        public void red()
+        public void Internet()
         {
             Console.WriteLine("Estoy en internet");
         }
 
-        public void musica()
+        public void Musica()
         {
             Console.WriteLine("Estoy escuchando musica");
         }
 
-        public void videojuegos()
+        public void VideoJuegos()
         {
             Console.WriteLine("Estoy jugando");
         }

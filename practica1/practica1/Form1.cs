@@ -22,9 +22,9 @@ namespace practica1
 
             Console.WriteLine("persona.nombre " + persona.nombre);
 
-            persona.cantar();
+            persona.Cantar();
 
-            persona.respirar();
+            persona.Respirar();
 
             Celular celular = new Celular();
 
@@ -32,7 +32,7 @@ namespace practica1
 
             Console.WriteLine("celular.color" + celular.color);
 
-            celular.comunicacion();
+            celular.Comunicar();
 
             TV TV = new TV();
 
@@ -40,7 +40,7 @@ namespace practica1
 
             Console.WriteLine("TV.tamaño" + TV.tamaño);
 
-            TV.ver_vi();
+            TV.VerVideos();
 
             Carro carro = new Carro();
 
@@ -48,7 +48,7 @@ namespace practica1
 
             Console.WriteLine("carro.peso" + carro.color);
 
-            carro.viajar();
+            carro.Viajar();
 
             Laptop laptop = new Laptop();
 
@@ -56,7 +56,7 @@ namespace practica1
 
             Console.WriteLine("laptop.color" + laptop.color);
             
-            laptop.red();
+            laptop.Informacion();
 
             León león = new León();
 
@@ -64,12 +64,7 @@ namespace practica1
 
             Console.WriteLine("león.peso" + león.peso);
 
-            león.dormir();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
+            león.Dormir();
         }
     }
 }

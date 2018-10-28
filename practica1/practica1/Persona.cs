@@ -12,27 +12,27 @@ namespace practica1
         public int edad = 0;
         public double peso = 0.0, estatura = 0.0;
 
-        public void cantar()
+        public void Cantar()
         {
             Console.WriteLine("Estoy cantando");
         }
 
-        public void respirar()
+        public void Respirar()
         {
             Console.WriteLine("Estoy respirando");
         }
 
-        public void saltar()
+        public void Saltar()
         {
             Console.WriteLine("Estoy respirando");
         }
 
-        public void caminar()
+        public void Caminar()
         {
             Console.WriteLine("Estoy caminando");
         }
 
-        public void escribir()
+        public void Escribir()
         {
             Console.WriteLine("Estoy escribiendo");
         }

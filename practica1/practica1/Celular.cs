@@ -10,17 +10,17 @@ namespace practica1
     {
         public string forma = "", modelo = "", color = "", material = "", tamaño = "";
 
-        public void comunicacion()
+        public void Comunicar()
         {
             Console.WriteLine("Estoy comunicado");
         }
 
-        public void ver_vi()
+        public void VerVideos()
         {
             Console.WriteLine("Ver videos");
         }
 
-        public void red()
+        public void Internet()
         {
             Console.WriteLine("Estoy en internet");
         }
@@ -30,7 +30,7 @@ namespace practica1
             Console.WriteLine("Estoy calculando");
         }
 
-        public void tomar_fot()
+        public void TomarFoto()
         {
             Console.WriteLine("Estoy tomando fotos");
         }

@@ -12,27 +12,27 @@ namespace practica1
         public string sexo = "", salud = "";
         public double estatura = 0.0;
 
-        public void cazar()
+        public void Cazar()
         {
             Console.WriteLine("Esta canzando");
         }
 
-        public void dormir()
+        public void Dormir()
         {
             Console.WriteLine("Esta dormido");
         }
 
-        public void trepar()
+        public void Trepar()
         {
             Console.WriteLine("Esta trepando");
         }
 
-        public void reprodusirce()
+        public void Reprodusirce()
         {
             Console.WriteLine("Esta reproduciendoce");
         }
 
-        public void respirar()
+        public void Respirar()
         {
             Console.WriteLine("Esta repirando");
         }

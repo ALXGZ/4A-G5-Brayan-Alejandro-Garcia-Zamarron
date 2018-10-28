@@ -8,29 +8,29 @@ namespace practica1
 {
     class Carro
     {
-        public string forma = "", color = "", tamaño = "", material = "", modelo ="";
+        public string forma = "", color = "", tamaño = "", material = "", modelo = "";
 
-        public void viajar()
+        public void Viajar()
         {
-            Console.WriteLine("Esta encendido");
+            Console.WriteLine("Estoy viajando");
         }
 
-        public void musica()
+        public void Musica()
         {
             Console.WriteLine("Escuchar musica");
         }
 
-        public void trans_obj()
+        public void Transportar()
         {
             Console.WriteLine("Transportar objetos");
         }
 
-        public void cubrir()
+        public void Cubrir()
         {
             Console.WriteLine("Estoy cubierto");
         }
 
-        public void socializar()
+        public void Socializar()
         {
             Console.WriteLine("Estoy socializando");
         }

@@ -10,27 +10,27 @@ namespace practica1
     {
         public string material = "", tamaño = "", marca = "", forma = "", color = "";
 
-        public void trabajar()
+        public void Trabajar()
         {
             Console.WriteLine("Estoy trabajando");
         }
 
-        public void videjuegos()
+        public void VideoJuegos()
         {
-            Console.WriteLine("Estoy junado");
+            Console.WriteLine("Estoy jugando Videojuegos");
         }
 
-        public void guardar()
+        public void Guardar()
         {
             Console.WriteLine("Guardar archivos");
         }
 
-        public void ver_vi()
+        public void VerVideos()
         {
             Console.WriteLine("Estoy viendo videos");
         }
 
-        public void red()
+        public void Informacion()
         {
             Console.WriteLine("Estoy en internet");
         }
