@@ -21,17 +21,17 @@ namespace practica1
             Console.WriteLine("Estoy viendo informacion");
         }
 
-        public void Internet()
+        public void NavegarEnInternet()
         {
             Console.WriteLine("Estoy en internet");
         }
 
-        public void Musica()
+        public void EscucharMusica()
         {
             Console.WriteLine("Estoy escuchando musica");
         }
 
-        public void VideoJuegos()
+        public void JugarVideoJuegos()
         {
             Console.WriteLine("Estoy jugando");
         }

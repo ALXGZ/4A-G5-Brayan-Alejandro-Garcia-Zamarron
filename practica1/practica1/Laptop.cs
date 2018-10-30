@@ -15,7 +15,7 @@ namespace practica1
             Console.WriteLine("Estoy trabajando");
         }
 
-        public void VideoJuegos()
+        public void JugarVideoJuegos()
         {
             Console.WriteLine("Estoy jugando Videojuegos");
         }
@@ -30,7 +30,7 @@ namespace practica1
             Console.WriteLine("Estoy viendo videos");
         }
 
-        public void Informacion()
+        public void NavegarEnInternet()
         {
             Console.WriteLine("Estoy en internet");
         }

@@ -20,7 +20,7 @@ namespace practica1
             Console.WriteLine("Ver videos");
         }
 
-        public void Internet()
+        public void NavegarInternet()
         {
             Console.WriteLine("Estoy en internet");
         }
@@ -30,7 +30,7 @@ namespace practica1
             Console.WriteLine("Estoy calculando");
         }
 
-        public void TomarFoto()
+        public void TomarFotos()
         {
             Console.WriteLine("Estoy tomando fotos");
         }

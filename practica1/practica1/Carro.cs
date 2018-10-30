@@ -15,7 +15,7 @@ namespace practica1
             Console.WriteLine("Estoy viajando");
         }
 
-        public void Musica()
+        public void EscucharMusica()
         {
             Console.WriteLine("Escuchar musica");
         }

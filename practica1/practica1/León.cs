@@ -27,7 +27,7 @@ namespace practica1
             Console.WriteLine("Esta trepando");
         }
 
-        public void Reprodusirce()
+        public void Procrear()
         {
             Console.WriteLine("Esta reproduciendoce");
         }
