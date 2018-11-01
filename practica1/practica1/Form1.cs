@@ -56,7 +56,7 @@ namespace practica1
 
             Console.WriteLine("laptop.color" + laptop.color);
             
-            laptop.Informacion();
+            laptop.NavegarEnInternet();
 
             León león = new León();
 
