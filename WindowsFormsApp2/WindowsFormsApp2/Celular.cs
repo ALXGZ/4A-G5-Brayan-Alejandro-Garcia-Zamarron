@@ -10,34 +10,34 @@ namespace WindowsFormsApp2
     {
         public string forma = "", modelo = "", color = "", material = "", tamaño = "";
 
-        public string Comunicar
+        public string Forma
         {
-            get { return this.Comunicar; }
-            set { this.Comunicar = value; }
+            get { return this.forma; }
+            set { this.forma = value; }
         }
 
-        public string VerVideos
+        public string Modelo
         {
-            get { return this.VerVideos; }
-            set { this.VerVideos = value; }
+            get { return this.modelo; }
+            set { this.modelo = value; }
         }
 
-        public string NavegarEnInternet
+        public string Color
         {
-            get { return this.NavegarEnInternet; }
-            set { this.NavegarEnInternet = value; }
+            get { return this.color; }
+            set { this.color = value; }
         }
 
-        public string Calcular
+        public string Material
         {
-            get { return this.Calcular; }
-            set { this.Calcular = value; }
+            get { return this.material; }
+            set { this.material = value; }
         }
 
-        public string TomarFotos
+        public string Tamaño
         {
-            get { return this.TomarFotos; }
-            set { this.TomarFotos = value; }
+            get { return this.tamaño; }
+            set { this.tamaño = value; }
         }
 
         public celular()
@@ -52,6 +52,31 @@ namespace WindowsFormsApp2
             this.color = color;
             this.material = material;
             this.tamaño = tamaño;
+        }
+
+        public void Comunicar()
+        {
+            Console.WriteLine("Estoy comunicado");
+        }
+
+        public void VerVideos()
+        {
+            Console.WriteLine("Ver videos");
+        }
+
+        public void NavegarInternet()
+        {
+            Console.WriteLine("Estoy en internet");
+        }
+
+        public void Calcular()
+        {
+            Console.WriteLine("Estoy calculando");
+        }
+
+        public void TomarFotos()
+        {
+            Console.WriteLine("Estoy tomando fotos");
         }
     }
 }

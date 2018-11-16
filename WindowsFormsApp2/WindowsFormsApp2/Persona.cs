@@ -12,36 +12,34 @@ namespace WindowsFormsApp2
         public int edad = 0;
         public double peso = 0.0, estatura = 0.0;
 
-        public string Cantar
+        public string Nombre
         {
-            get { return this.Cantar; }
-            set { this.Cantar = value; }
+            get { return this.nombre; }
+            set { this.nombre = value; }
         }
 
-        public string Respirar
+        public string Apellido
         {
-            get { return this.Respirar; }
-            set { this.Respirar = value; }
+            get { return this.apellido; }
+            set { this.apellido = value; }
         }
 
-        public string Saltar
+        public int Edad
         {
-            get { return this.Saltar; }
-            set { this.Saltar = value; }
+            get { return this.edad; }
+            set { this.edad = value; }
         }
 
-        public string Caminar
+        public double Peso
         {
-            get { return this.Caminar; }
-            set { this.Caminar = value; }
+            get { return this.peso; }
+            set { this.peso = value; }
         }
-
-        public string Escribir
+        public double Estatura
         {
-            get { return this.Escribir; }
-            set { this.Escribir = value; }
+            get { return this.estatura; }
+            set { this.estatura = value; }
         }
-
         public persona()
         {
 
@@ -54,6 +52,31 @@ namespace WindowsFormsApp2
             this.edad = 0;
             this.peso = 0.0;
             this.estatura = 0.0;
+        }
+
+        public void Cantar()
+        {
+            Console.WriteLine("Estoy cantando");
+        }
+
+        public void Respirar()
+        {
+            Console.WriteLine("Estoy respirando");
+        }
+
+        public void Saltar()
+        {
+            Console.WriteLine("Estoy respirando");
+        }
+
+        public void Caminar()
+        {
+            Console.WriteLine("Estoy caminando");
+        }
+
+        public void Escribir()
+        {
+            Console.WriteLine("Estoy escribiendo");
         }
     }
 }

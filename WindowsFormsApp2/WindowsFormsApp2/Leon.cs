@@ -12,34 +12,34 @@ namespace WindowsFormsApp2
         public string sexo = "", salud = "";
         public double estatura = 0.0;
 
-        public string Cazar
+        public int Peso
         {
-            get { return this.Cazar; }
-            set { this.Cazar = value; }
+            get { return this.peso; }
+            set { this.peso = value; }
         }
 
-        public string Dormir
+        public int Edad
         {
-            get { return this.Dormir; }
-            set { this.Dormir = value; }
+            get { return this.edad; }
+            set { this.edad = value; }
         }
 
-        public string Respirar
+        public string Sexo
         {
-            get { return this.Respirar; }
-            set { this.Respirar = value; }
+            get { return this.sexo; }
+            set { this.sexo = value; }
         }
 
-        public string Trepar
+        public string Salud
         {
-            get { return this.Trepar; }
-            set { this.Trepar = value; }
+            get { return this.salud; }
+            set { this.salud = value; }
         }
 
-        public string Procrear
+        public double Estatura
         {
-            get { return this.Procrear; }
-            set { this.Procrear = value; }
+            get { return this.estatura; }
+            set { this.estatura = value; }
         }
 
         public leon()
@@ -54,6 +54,31 @@ namespace WindowsFormsApp2
             this.sexo = sexo;
             this.salud = salud;
             this.estatura = 0.0;
+        }
+
+        public void Cazar()
+        {
+            Console.WriteLine("Esta canzando");
+        }
+
+        public void Dormir()
+        {
+            Console.WriteLine("Esta dormido");
+        }
+
+        public void Trepar()
+        {
+            Console.WriteLine("Esta trepando");
+        }
+
+        public void Procrear()
+        {
+            Console.WriteLine("Esta reproduciendoce");
+        }
+
+        public void Respirar()
+        {
+            Console.WriteLine("Esta repirando");
         }
     }
 }

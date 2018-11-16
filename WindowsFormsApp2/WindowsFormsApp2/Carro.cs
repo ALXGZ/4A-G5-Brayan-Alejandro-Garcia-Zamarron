@@ -9,34 +9,34 @@ namespace WindowsFormsApp2
     class carro
     {
         public string forma = "", color = "", tamaño = "", material = "", modelo = "";
-        public string Viajar
+        public string Forma
         {
-            get { return this.Viajar; }
-            set { this.Viajar = value; }
+            get { return this.forma; }
+            set { this.forma = value; }
         }
 
-        public string EscucharMusica
+        public string Color
         {
-            get { return this.EscucharMusica; }
-            set { this.EscucharMusica = value; }
+            get { return this.color; }
+            set { this.color = value; }
         }
 
-        public string Transportar
+        public string Tamaño
         {
-            get { return this.Transportar; }
-            set { this.Transportar = value; }
+            get { return this.tamaño; }
+            set { this.tamaño = value; }
         }
 
-        public string Cubrir
+        public string Material
         {
-            get { return this.Cubrir; }
-            set { this.Cubrir = value; }
+            get { return this.material; }
+            set { this.material = value; }
         }
 
-        public string Socializar
+        public string Modelo
         {
-            get { return this.Socializar; }
-            set { this.Socializar = value; }
+            get { return this.modelo; }
+            set { this.modelo = value; }
         }
 
         public carro()
@@ -51,6 +51,31 @@ namespace WindowsFormsApp2
             this.tamaño = tamaño;
             this.material = material;
             this.modelo = modelo;
+        }
+
+        public void Viajar()
+        {
+            Console.WriteLine("Estoy viajando");
+        }
+
+        public void EscucharMusica()
+        {
+            Console.WriteLine("Escuchar musica");
+        }
+
+        public void Transportar()
+        {
+            Console.WriteLine("Transportar objetos");
+        }
+
+        public void Cubrir()
+        {
+            Console.WriteLine("Estoy cubierto");
+        }
+
+        public void Socializar()
+        {
+            Console.WriteLine("Estoy socializando");
         }
     }
 }

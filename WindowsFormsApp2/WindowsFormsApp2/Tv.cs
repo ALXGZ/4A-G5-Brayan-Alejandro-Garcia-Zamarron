@@ -11,36 +11,34 @@ namespace WindowsFormsApp2
         public string forma = "", color = "", modelo = "";
         public double costo = 0.0, tamaño = 0.0;
 
-        public string VerVideos
+        public string Forma
         {
-            get { return this.VerVideos; }
-            set { this.VerVideos = value; }
+            get { return this.forma; }
+            set { this.forma = value; }
         }
 
-        public string VerInformacion
+        public string Color
         {
-            get { return this.VerInformacion; }
-            set { this.VerInformacion = value; }
+            get { return this.color; }
+            set { this.color = value; }
         }
 
-        public string NavegarEnInternet
+        public string Modelo
         {
-            get { return this.NavegarEnInternet; }
-            set { this.NavegarEnInternet = value; }
+            get { return this.modelo; }
+            set { this.modelo = value; }
         }
 
-        public string EscucharMusica
+        public double Costo
         {
-            get { return this.EscucharMusica; }
-            set { this.EscucharMusica = value; }
+            get { return this.costo; }
+            set { this.costo = value; }
         }
-
-        public string JugarVideojuegos
+        public double Tamaño
         {
-            get { return this.JugarVideojuegos; }
-            set { this.JugarVideojuegos = value; }
+            get { return this.tamaño; }
+            set { this.tamaño = value; }
         }
-
         public tv()
         {
 
@@ -53,6 +51,31 @@ namespace WindowsFormsApp2
             this.modelo = modelo;
             this.costo = 0.0;
             this.tamaño = 0.0;
+        }
+
+        public void VerVideos()
+        {
+            Console.WriteLine("Estoy viendo videos");
+        }
+
+        public void VerInformacion()
+        {
+            Console.WriteLine("Estoy viendo informacion");
+        }
+
+        public void NavegarEnInternet()
+        {
+            Console.WriteLine("Estoy en internet");
+        }
+
+        public void EscucharMusica()
+        {
+            Console.WriteLine("Estoy escuchando musica");
+        }
+
+        public void JugarVideoJuegos()
+        {
+            Console.WriteLine("Estoy jugando");
         }
     }
 }

@@ -24,7 +24,7 @@ namespace WindowsFormsApp2
 
             carro carro1 = new carro();
 
-            carro1.modelo = "Rojo";
+            carro1.color = "Rojo";
             Console.WriteLine(carro1.color);
 
             tv tv = new tv();
