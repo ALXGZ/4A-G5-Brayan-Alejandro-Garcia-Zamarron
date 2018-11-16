@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp2
 {
-    class celular
+    class Celular
     {
-        public string forma = "", modelo = "", color = "", material = "", tamaño = "";
+        string forma = "", modelo = "", color = "", material = "", tamaño = "";
 
         public string Forma
         {

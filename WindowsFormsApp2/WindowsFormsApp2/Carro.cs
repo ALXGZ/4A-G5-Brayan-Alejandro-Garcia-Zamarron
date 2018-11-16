@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp2
 {
-    class carro
+    class Carro
     {
-        public string forma = "", color = "", tamaño = "", material = "", modelo = "";
+        string forma = "", color = "", tamaño = "", material = "", modelo = "";
+
         public string Forma
         {
             get { return this.forma; }

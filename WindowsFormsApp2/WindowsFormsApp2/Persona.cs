@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp2
 {
-    class persona
+    class Persona
     {
-        public string nombre = "", apellido = "";
-        public int edad = 0;
-        public double peso = 0.0, estatura = 0.0;
+        string nombre = "", apellido = "";
+        int edad = 0;
+        double peso = 0.0, estatura = 0.0;
 
         public string Nombre
         {

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp2
 {
-    class leon
+    class Leon
     {
-        public int peso = 0, edad = 0;
-        public string sexo = "", salud = "";
-        public double estatura = 0.0;
+        int peso = 0, edad = 0;
+        string sexo = "", salud = "";
+        double estatura = 0.0;
 
         public int Peso
         {

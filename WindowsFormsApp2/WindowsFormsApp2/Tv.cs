@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp2
 {
-    class tv
+    class Tv
     {
-        public string forma = "", color = "", modelo = "";
-        public double costo = 0.0, tamaño = 0.0;
+        string forma = "", color = "", modelo = "";
+        double costo = 0.0, tamaño = 0.0;
 
         public string Forma
         {
