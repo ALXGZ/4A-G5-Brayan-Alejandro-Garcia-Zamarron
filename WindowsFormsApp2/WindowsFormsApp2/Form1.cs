@@ -19,45 +19,45 @@ namespace WindowsFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            carro carro = new carro();
-            Console.WriteLine(carro.color);
+            Carro carro = new Carro();
+            Console.WriteLine(carro.Color);
 
-            carro carro1 = new carro();
+            Carro carro1 = new Carro();
 
-            carro1.color = "Rojo";
-            Console.WriteLine(carro1.color);
+            carro1.Color = "Rojo";
+            Console.WriteLine(carro1.Color);
 
-            tv tv = new tv();
-            Console.WriteLine(tv.forma);
+            Tv tv = new Tv();
+            Console.WriteLine(tv.Forma);
 
-            tv tv1 = new tv();
+            Tv tv1 = new Tv();
 
-            tv1.forma = "Rectangular";
-            Console.WriteLine(tv1.forma);
+            tv1.Forma = "Rectangular";
+            Console.WriteLine(tv1.Forma);
 
-            persona persona = new persona();
-            Console.WriteLine(persona.nombre);
+            Persona persona = new Persona();
+            Console.WriteLine(persona.Nombre);
 
-            persona persona1 = new persona();
+            Persona persona1 = new Persona();
 
-            persona1.nombre = "Alejandro";
-            Console.WriteLine(persona1.nombre);
+            persona1.Nombre = "Alejandro";
+            Console.WriteLine(persona1.Nombre);
 
-            leon leon = new leon();
-            Console.WriteLine(leon.peso);
+            Leon leon = new Leon();
+            Console.WriteLine(leon.Peso);
 
-            leon leon1 = new leon();
+            Leon leon1 = new Leon();
 
-            leon1.peso = 250;
-            Console.WriteLine(leon1.peso);
+            leon1.Peso = 250;
+            Console.WriteLine(leon1.Peso);
 
-            celular celular = new celular();
-            Console.WriteLine(celular.forma);
+            Celular celular = new Celular();
+            Console.WriteLine(celular.Forma);
 
-            celular celular1 = new celular();
+            Celular celular1 = new Celular();
 
-            celular1.forma = "Rectangular";
-            Console.WriteLine(celular1.forma);
+            celular1.Forma = "Rectangular";
+            Console.WriteLine(celular1.Forma);
         }
     }
 }

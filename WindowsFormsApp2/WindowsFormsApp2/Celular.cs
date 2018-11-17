@@ -40,12 +40,12 @@ namespace WindowsFormsApp2
             set { this.tamaño = value; }
         }
 
-        public celular()
+        public Celular()
         {
 
         }
 
-        public celular(string tamaño, string velocidad, string comodo, string resistencia, double almacenamiento)
+        public Celular(string tamaño, string velocidad, string comodo, string resistencia, double almacenamiento)
         {
             this.forma = forma;
             this.modelo = modelo;

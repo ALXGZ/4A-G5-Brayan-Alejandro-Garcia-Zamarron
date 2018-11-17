@@ -40,12 +40,12 @@ namespace WindowsFormsApp2
             get { return this.estatura; }
             set { this.estatura = value; }
         }
-        public persona()
+        public Persona()
         {
 
         }
 
-        public persona(string nombre, string apellidos, string sexo, string fechNac, int edad)
+        public Persona(string nombre, string apellidos, string sexo, string fechNac, int edad)
         {
             this.nombre = nombre;
             this.apellido = apellido;

@@ -39,12 +39,12 @@ namespace WindowsFormsApp2
             get { return this.tamaño; }
             set { this.tamaño = value; }
         }
-        public tv()
+        public Tv()
         {
 
         }
 
-        public tv(string calidad, string modelo, string forma, string video, double tamaño)
+        public Tv(string calidad, string modelo, string forma, string video, double tamaño)
         {
             this.forma = forma;
             this.color = color;

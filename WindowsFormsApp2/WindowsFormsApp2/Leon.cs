@@ -42,12 +42,12 @@ namespace WindowsFormsApp2
             set { this.estatura = value; }
         }
 
-        public leon()
+        public Leon()
         {
 
         }
 
-        public leon(string especie, string tamaño, string sexo, string color, double peso)
+        public Leon(string especie, string tamaño, string sexo, string color, double peso)
         {
             this.peso = 0;
             this.edad = 0;

@@ -40,12 +40,12 @@ namespace WindowsFormsApp2
             set { this.modelo = value; }
         }
 
-        public carro()
+        public Carro()
         {
 
         }
 
-        public carro(string color, string tamaño, string velocidad, string modelo, double peso)
+        public Carro(string color, string tamaño, string velocidad, string modelo, double peso)
         {
             this.forma = forma;
             this.color = color;
