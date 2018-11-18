@@ -34,11 +34,13 @@ namespace WindowsFormsApp2
             get { return this.costo; }
             set { this.costo = value; }
         }
+
         public double Tamaño
         {
             get { return this.tamaño; }
             set { this.tamaño = value; }
         }
+
         public Tv()
         {
 

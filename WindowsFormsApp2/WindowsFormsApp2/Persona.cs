@@ -35,11 +35,13 @@ namespace WindowsFormsApp2
             get { return this.peso; }
             set { this.peso = value; }
         }
+
         public double Estatura
         {
             get { return this.estatura; }
             set { this.estatura = value; }
         }
+
         public Persona()
         {
 
