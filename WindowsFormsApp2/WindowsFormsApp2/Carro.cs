@@ -45,7 +45,7 @@ namespace WindowsFormsApp2
 
         }
 
-        public Carro(string color, string tamaño, string velocidad, string modelo, double peso)
+        public Carro(string forma, string color, string tamaño, string material, string modelo)
         {
             this.forma = forma;
             this.color = color;

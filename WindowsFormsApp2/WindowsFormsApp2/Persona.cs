@@ -47,7 +47,7 @@ namespace WindowsFormsApp2
 
         }
 
-        public Persona(string nombre, string apellidos, string sexo, string fechNac, int edad)
+        public Persona(string nombre, string apellido, int edad, double peso, double estatura)
         {
             this.nombre = nombre;
             this.apellido = apellido;

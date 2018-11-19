@@ -46,7 +46,7 @@ namespace WindowsFormsApp2
 
         }
 
-        public Tv(string calidad, string modelo, string forma, string video, double tamaño)
+        public Tv(string forma, string color, string modelo, double costo, double tamaño)
         {
             this.forma = forma;
             this.color = color;

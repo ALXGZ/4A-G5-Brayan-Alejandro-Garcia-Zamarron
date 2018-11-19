@@ -47,7 +47,7 @@ namespace WindowsFormsApp2
 
         }
 
-        public Leon(string especie, string tamaño, string sexo, string color, double peso)
+        public Leon(int peso, int edad, string sexo, string salud, double estatura)
         {
             this.peso = 0;
             this.edad = 0;

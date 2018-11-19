@@ -45,7 +45,7 @@ namespace WindowsFormsApp2
 
         }
 
-        public Celular(string tamaño, string velocidad, string comodo, string resistencia, double almacenamiento)
+        public Celular(string forma, string modelo, string color, string material, string tamaño)
         {
             this.forma = forma;
             this.modelo = modelo;
