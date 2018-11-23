@@ -8,8 +8,8 @@ namespace WindowsFormsApp2
 {
     class Tv
     {
-        string forma = "", color = "", modelo = "";
-        double costo = 0.0, tamaño = 0.0;
+        string forma = "", color = "", modelo = "", tamaño = "";
+        double costo = 0.0;
 
         public string Forma
         {
@@ -35,7 +35,7 @@ namespace WindowsFormsApp2
             set { this.costo = value; }
         }
 
-        public double Tamaño
+        public string Tamaño
         {
             get { return this.tamaño; }
             set { this.tamaño = value; }
@@ -46,13 +46,13 @@ namespace WindowsFormsApp2
 
         }
 
-        public Tv(string forma, string color, string modelo, double costo, double tamaño)
+        public Tv(string forma, string color, string modelo, double costo, string tamaño)
         {
-            this.forma = forma;
-            this.color = color;
-            this.modelo = modelo;
-            this.costo = 0.0;
-            this.tamaño = 0.0;
+            this.forma = "Rectangular";
+            this.color = "Negro";
+            this.modelo = "LG";
+            this.costo = 7350;
+            this.tamaño = "2 x 3";
         }
 
         public void VerVideos()
