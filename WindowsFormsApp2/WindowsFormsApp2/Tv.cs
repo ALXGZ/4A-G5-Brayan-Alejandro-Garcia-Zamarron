@@ -50,7 +50,7 @@ namespace WindowsFormsApp2
         {
             this.forma = "Rectangular";
             this.color = "Negro";
-            this.modelo = "LG";
+            this.modelo = "Samsung";
             this.costo = 7350;
             this.tamaño = "2 x 3";
         }

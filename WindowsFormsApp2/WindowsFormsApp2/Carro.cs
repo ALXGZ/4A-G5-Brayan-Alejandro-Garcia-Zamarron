@@ -47,11 +47,11 @@ namespace WindowsFormsApp2
 
         public Carro(string forma, string color, string tamaño, string material, string modelo)
         {
-            this.forma = forma;
-            this.color = color;
-            this.tamaño = tamaño;
-            this.material = material;
-            this.modelo = modelo;
+            this.forma = "Rectangular";
+            this.color = "Amarillo";
+            this.tamaño = "2 x 3";
+            this.material = "Metal";
+            this.modelo = "Ferrary";
         }
 
         public void Viajar()

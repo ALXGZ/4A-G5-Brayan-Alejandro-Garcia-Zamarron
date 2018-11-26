@@ -47,11 +47,11 @@ namespace WindowsFormsApp2
 
         public Celular(string forma, string modelo, string color, string material, string tamaño)
         {
-            this.forma = forma;
-            this.modelo = modelo;
-            this.color = color;
-            this.material = material;
-            this.tamaño = tamaño;
+            this.forma = "Rectangular";
+            this.modelo = "Hisense";
+            this.color = "Negro";
+            this.material = "Plastico";
+            this.tamaño = "2 x 3";
         }
 
         public void Comunicar()
