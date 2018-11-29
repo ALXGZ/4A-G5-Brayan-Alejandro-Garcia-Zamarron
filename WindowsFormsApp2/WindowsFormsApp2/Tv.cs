@@ -48,11 +48,11 @@ namespace WindowsFormsApp2
 
         public Tv(string forma, string color, string modelo, double costo, string tamaño)
         {
-            this.forma = "Rectangular";
-            this.color = "Negro";
-            this.modelo = "Samsung";
-            this.costo = 7350;
-            this.tamaño = "2 x 3";
+            this.forma = forma;
+            this.color = color;
+            this.modelo = modelo;
+            this.costo = costo;
+            this.tamaño = tamaño;
         }
 
         public void VerVideos()

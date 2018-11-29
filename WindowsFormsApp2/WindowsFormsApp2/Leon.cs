@@ -49,11 +49,11 @@ namespace WindowsFormsApp2
 
         public Leon(int peso, int edad, string sexo, string salud, double estatura)
         {
-            this.peso = 235;
-            this.edad = 36;
-            this.sexo = "Hembra";
-            this.salud = "Buena";
-            this.estatura = 1.5;
+            this.peso = peso;
+            this.edad = edad;
+            this.sexo = sexo;
+            this.salud = salud;
+            this.estatura = estatura;
         }
 
         public void Cazar()

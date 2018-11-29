@@ -49,11 +49,11 @@ namespace WindowsFormsApp2
 
         public Persona(string nombre, string apellido, int edad, double peso, double estatura)
         {
-            this.nombre = "Alexandro";
-            this.apellido = "Garcia";
-            this.edad = 19;
-            this.peso = 56;
-            this.estatura = 1.75;
+            this.nombre = nombre;
+            this.apellido = apellido;
+            this.edad = edad;
+            this.peso = peso;
+            this.estatura = estatura;
         }
 
         public void Cantar()
