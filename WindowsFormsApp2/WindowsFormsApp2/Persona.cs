@@ -71,9 +71,9 @@ namespace WindowsFormsApp2
             Console.WriteLine("Estoy respirando");
         }
 
-        public void Caminar()
+        public void Saltar ()
         {
-            Console.WriteLine("Estoy caminando");
+            Console.WriteLine("Estoy respirando");
         }
 
         public void Escribir()
